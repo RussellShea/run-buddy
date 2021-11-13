@@ -1,3 +1,8 @@
+/* adding default CSS values for every element */
+* {
+  margin: 0;
+  padding: 0;
+}
 /* here for some reason will prob delete and is overwritten by second line */
 body {
   font-family: Helvitica, Arial, sans-serif;
@@ -27,5 +32,17 @@ header nav {
   margin: 7px 0;
 }
 header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
   display: inline;
 }
