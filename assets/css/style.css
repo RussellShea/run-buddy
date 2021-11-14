@@ -21,12 +21,12 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #fce139;
+  color: #fce138;
   margin: 0;
 }
 header a {
   text-decoration: none;
-  color: #fce139;
+  color: #fce138;
 }
 header nav {
   float: right;
@@ -115,3 +115,22 @@ section {
   font-size: 16px;
 }
 /* HERO STYLES ENDS */
+.intro {
+  text-align: center;
+}
+.intro h2 {
+  display: inline-block;
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+}
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
